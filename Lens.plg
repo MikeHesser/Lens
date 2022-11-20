@@ -1,0 +1,36 @@
+--------------------Konfiguration: Lense - Win32 Debug--------------------
+Begining build with project "D:\PROJECTS\Lens\Lens.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-Bit C/C++-Compiler für 80x86" with flags "/nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x407 /fo"Debug/Lens.res" /d "_DEBUG" /d "_AFXDLL" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/Lens.bsc" "
+			"COFF-Linker für 80x86" with flags "/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Lens.pdb" /debug /machine:I386 /out:"Debug/Lens.exe" /pdbtype:sept "
+			"Benutzerdefiniertes Erstellen" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating command line "rc.exe /l 0x407 /fo"Debug/Lens.res" /d "_DEBUG" /d "_AFXDLL" "D:\PROJECTS\Lens\Lens.rc"" 
+Creating temp file "C:\TEMP\RSPC1.tmp" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/Lens.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\PROJECTS\Lens\StdAfx.cpp"
+>
+Creating command line "cl.exe @C:\TEMP\RSPC1.tmp" 
+Creating temp file "C:\TEMP\RSPC2.tmp" with contents </nologo /subsystem:windows /incremental:yes /pdb:"Debug/Lens.pdb" /debug /machine:I386 /out:"Debug/Lens.exe" /pdbtype:sept 
+.\Debug\CSizingDialog.obj
+.\Debug\Help.obj
+.\Debug\Lens.obj
+.\Debug\LensData.obj
+.\Debug\LensDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\Lens.res>
+Creating command line "link.exe @C:\TEMP\RSPC2.tmp" 
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+Ueberspringen... (keine relevanten Aenderungen gefunden)
+StdAfx.cpp
+Linker-Vorgang läuft...
+
+
+
+Lens.exe - 0 Fehler, 0 Warnung(en)
